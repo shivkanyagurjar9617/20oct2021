@@ -24,7 +24,7 @@
             //2. Now tell the JS to place this header element inside body tag
             document.getElementById('s_body').appendChild(h);
 
-            document.querySelector('header').setAttribute('class','s_header');
+            document.querySelector('header').setAttribute('class','s_header'); 
 
             //object.member
             document.body.style.margin = '0px';
@@ -75,6 +75,19 @@
             arr.forEach(function(currentValue, index, arr){
                 arr[index].style.display = 'inline-block';
             });
+
+            document.querySelector('aside').style.display = 'inline-block';
+            x[0].style.width = '100%';
+            x[0].style.height = '150px';
+            x[0].style.border = '5px solid #ddd';
+
+            var x = document.getElementsByTagName('aside');
+
+           // console.log(x[0]);
+            x[0].style.color = 'green';
+            x[0].style.fontSize = '3em';
+            x[0].style.textAlign = 'center';
+            x[0].style.lineHeight = '150px';
 
 
 
